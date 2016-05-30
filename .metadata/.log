@@ -2315,3 +2315,6 @@ org.xml.sax.SAXParseException; Premature end of file.
 
 !ENTRY org.eclipse.jdt.core 4 0 2016-05-30 22:01:20.259
 !MESSAGE Invalid ZIP archive: /home/hungmai/Study/Android/MyWorkSpace/Application/uFriendsFolder/uFriends/libs/android-support-v4.jar
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2016-05-30 22:19:12.489
+!MESSAGE No projects found for [/home/hungmai/Study/Android/MyWorkSpace/Application/uFriendsFolder/IntroActivity/AndroidManifest.xml]
