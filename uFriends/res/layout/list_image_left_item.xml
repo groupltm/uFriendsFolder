@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="6">
+    
+    <custom_view.Custom_MyImageView
+        android:id="@+id/imvAvatar"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        />
+        
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="5"
+        android:background="@drawable/rawshapes_left"
+        android:orientation="vertical" >
+        
+        <ImageView 
+            android:id="@+id/imvShareImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:scaleType="fitXY"
+            />
+        
+        <TextView 
+            android:id="@+id/txtSeenDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textColor="#D9DADB"
+            android:text="seen"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+        	android:layout_gravity="left"
+            />
+    </LinearLayout>
+    
+</LinearLayout>
